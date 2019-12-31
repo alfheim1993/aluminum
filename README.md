@@ -1,7 +1,5 @@
-# Ìì³ØÍ¼Ïñ±ÈÈüBaseline·ÖÏí
-[2018¹ã¶«¹¤ÒµÖÇÔì´óÊý¾Ý´´ÐÂ´óÈü¡ª¡ªÖÇÄÜËã·¨Èü](https://tianchi.aliyun.com/competition/introduction.htm?spm=5176.11165320.5678.1.54114443WSKVPP&raceId=231682)£¬Î´µ÷²ÎÇé¿öÏÂÏßÉÏ`0.921`
----
-## ÔËÐÐ´úÂëÇ°£¬ÐèÒª½«Í¼Æ¬·ÅÔÚdataÄ¿Â¼ÏÂ£¬Ä¿Â¼Ê÷ÈçÏÂ£º
+[2018å¹¿ä¸œå·¥ä¸šæ™ºé€ å¤§æ•°æ®åˆ›æ–°å¤§èµ›â€”â€”æ™ºèƒ½ç®—æ³•èµ›](https://tianchi.aliyun.com/competition/introduction.htm?
+## è¿è¡Œä»£ç å‰ï¼Œéœ€è¦å°†å›¾ç‰‡æ”¾åœ¨dataç›®å½•ä¸‹ï¼Œç›®å½•æ ‘å¦‚ä¸‹ï¼š
 
 	|--data
 		|--guangdong_round1_train1_20180903
@@ -12,20 +10,11 @@
 	|--main_inception_v4.py
 
 ---
-## ´úÂëÔËÐÐ·½Ê½£º
+## ä»£ç è¿è¡Œæ–¹å¼ï¼š
 	python gen_label_csv.py
 	python main_inception_v4.py
 
 ---
-## ³ÌÐòËµÃ÷£º
-¿ò¼Ü£ºPytorch 0.4
+## ç¨‹åºè¯´æ˜Žï¼š
+æ¡†æž¶ï¼šPytorch 0.4
 
-´úÂë¾­²âÊÔ£¬ÏßÉÏ·ÖÊýÎª`0.921`£¬ÏßÉÏ19Ãû£¨½ØÖÁ2018.9.20£©¡£
-
-Èç¹ûÓÐ°æ±¾µü´ú£¬Ö»ÐèÐÞ¸ÄÖ÷³ÌÐòÃû£¬Ôò´úÂë»á×Ô¶¯Éú³ÉÐÂÄ¿Â¼ÓÃÓÚ±£´æÄ£ÐÍÓë½á¹ûÎÄ¼þ¡£
-
-Ê¹ÓÃµÄÄ£ÐÍÎªImageNetÔ¤ÑµÁ·µÄinception v4£¬ÕûÌåË¼Â·£ºÊý¾ÝÔöÇ¿Ö®ºóÖ±½Ó½«ÍøÂçÈ«²¿²ãÒ»ÆðÑµÁ·£¬×ö¼òµ¥·ÖÀà¡£
-
-±¾´úÂëÎªbaseline£¬Î´¾­ÈÎºÎµ÷²Î£¬ÑµÁ·²ÎÊýºÍÊý¾ÝÔöÇ¿·½Ê½µÈ¿ÉÒÔ×ÔÐÐËæÒâÐÞ¸Ä¡£
-
-ÊäÈë³ß´çÎª384¡Á384£¬Èç¹û³öÏÖout of memory£¨ÏÔ´æ²»×ã£©£¬¿É¼õÐ¡batch sizeÔÙÖØÐÂÅÜ¡£
